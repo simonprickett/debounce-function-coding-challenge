@@ -1,0 +1,19 @@
+<! DOCTYPE html>
+<html>
+  <head>
+    <title>Debounce Challenge Solution</title>
+    <script src="script.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="styles.css" />    
+  </head>
+  <body>
+    <h1>Debounce Challenge Solution</h1>
+    <p>This is an example solution for the Fundamental JS January 2020 coding challenge.</p>
+    <p>Type some text into the input below, and a function should fire one second after you stop...</p>
+    <input type="text" id="ourInput" onkeypress="debounceFunction(1000, suggestFunction)"/>
+    <p>Output from the function will appear here shortly after you stop typing in the input field.</p>
+    <div id="output" class="output">
+    </div>
+  </body>
+</html>
